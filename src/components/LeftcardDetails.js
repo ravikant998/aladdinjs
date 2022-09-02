@@ -139,7 +139,9 @@ const LeftcardDetails = (props) => {
               </div>
             </div>
             <div className="item-price">
-              <div className="price-wrap">$ {data.price}</div>
+              <div className="price-wrap">
+                $ {data.price}
+                </div>
               <div className="quantity-wrap">
                 <div
                   className="quantity-decrease"
